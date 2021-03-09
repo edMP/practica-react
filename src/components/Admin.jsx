@@ -22,7 +22,7 @@ const Admin = (props) => {
     }
    
         const cartelera=async()=>{
-            const data=await fetch(`http://www.omdbapi.com/?apikey=ba40df7c&t=${titulo}&y=${anno}`)
+            const data=await fetch(`https://www.omdbapi.com/?apikey=ba40df7c&t=${titulo}&y=${anno}`)
             
             const film=await data.json()
     
